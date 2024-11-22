@@ -43,7 +43,7 @@ void loop() {
 
   
   if(jarak < 100){
-    analogWrite(3, 200);
+    	analogWrite(3, 200);
   	digitalWrite(5, LOW);
 	digitalWrite(6, HIGH);
   }

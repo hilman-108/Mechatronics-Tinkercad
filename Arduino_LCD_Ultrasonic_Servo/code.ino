@@ -45,7 +45,7 @@ void loop() {
 
   
   if(jarak < 100){
-  	myservo.write(180);
+  	 myservo.write(180);
     delay(500);
     myservo.write(-180);
     delay(500);
